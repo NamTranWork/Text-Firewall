@@ -6,7 +6,7 @@
 3) Make sure that right files have been loaded, especially the header files, program files, and the Makefile.
 4) Go to the designated folder and open up the terminal.
 5) Once you are in the designated directory, enter the command: $ make.
-6) The commands in the Makefile will make compling the header and program files in the "asgn6" directory easier.
+6) The commands in the Makefile will make compling the header and program files in the designated directory easier.
 7) There is one main executable called banhammer which reads words from a standard input.  It will identify any badspeak or oldspeak words and output appropriate punishment messages based on the severity of the situation.  It will also print all badspeak and oldspeak words that caused the punishment in the first.  If the statistics option was activated, only the statistics related to the parsing is printed instead of the warning messages and the badspeak or oldspeak words.
 8) You could choose to modify badspeak.txt and newspeak.txt to filter out words of your own choosing.  There are already a few words sets in each file.
 9) To run the executable, do: $ "file or standard input " | ./banhammer <-options->
